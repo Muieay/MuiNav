@@ -1,19 +1,7 @@
-# mui-nav
+# Muieay`网址导航
 
-## Project setup
-```
-npm install
-```
+###### 一个纯静态的网址导航
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+服务器太LOW，写一个纯静态的网址导航。
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[导航](https://nav.muieay.top)
