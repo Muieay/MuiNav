@@ -2,7 +2,7 @@
     <div>
         <div v-for="item in navList">
             <h4 class="text-gray" style="display: inline-block;">
-                <i class="icon-io-tag" style="margin-right: 27px;" id="term-17"></i>
+                <i class="icon-io-tag" style="margin-right: 27px;" :id="item.navTab"></i>
                 {{item.navTab}}
             </h4>
             <div class="row">
@@ -34,7 +34,9 @@ export default {
 <style scoped>
 
 .text-gray {
+    font-size: 20px;
     color: #555;
+    margin-top: 20px;
 }
 .row{
     display: flex;
@@ -42,14 +44,15 @@ export default {
 }
 .card {
     width: 100%;
-    max-width: 230px;
-    height: 60px;
-    padding-top: 10px;
-    margin: 10px;
+    max-width: 210px;
+    height: 65px;
+    /*padding-top: 10px;*/
+    margin: 13px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(142, 140, 140, 0.2), 0 1px 20px 0 rgba(167, 164, 164, 0.19);
     border-radius: 10px;
     display: flex;
+    align-items: center;
 }
 @media screen and (max-width: 480px) {
     .card {
@@ -79,8 +82,9 @@ export default {
 .textBox {
     width: calc(100% - 90px);
     margin-left: 15px;
-    margin-top: -10px;
     color: black;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 </style>
