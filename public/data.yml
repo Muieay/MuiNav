@@ -22,6 +22,12 @@ nav:
         - img: '/favicon.ico'
           title: 'Flex布局'
           url: 'https://flex-layout-tools.netlify.app'
+        - img: '/favicon.ico'
+          title: 'AList'
+          url: 'http://47.113.147.142:5244'
+        - img: '/favicon.ico'
+          title: 'Memos'
+          url: 'http://47.113.147.142:5230'
 
   - navTab: '推荐'
     tabList:

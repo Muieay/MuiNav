@@ -59,7 +59,6 @@ export default {
             // console.log(ymlData)
             
             let data = yaml.load(ymlData)
-            console.log(data)
             this.navList = data.nav
         },
     }
