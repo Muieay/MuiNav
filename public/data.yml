@@ -22,10 +22,10 @@ nav:
         - img: '/favicon.ico'
           title: 'Flex布局'
           url: 'https://flex-layout-tools.netlify.app'
-        - img: '/favicon.ico'
+        - img: 'https://alist.nn.ci/logo.svg'
           title: 'AList'
           url: 'http://47.113.147.142:5244'
-        - img: '/favicon.ico'
+        - img: 'https://usememos.com/logo.webp'
           title: 'Memos'
           url: 'http://47.113.147.142:5230'
 
