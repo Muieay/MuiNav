@@ -21,7 +21,7 @@ nav:
           url: 'https://book.muieay.top'
         - img: '/favicon.ico'
           title: 'Flex布局'
-          url: 'https://flex-layout-tools.netlify.app'
+          url: 'https://flexlayouttools.netlify.app'
         - img: 'https://alist.nn.ci/logo.svg'
           title: 'AList'
           url: 'http://47.113.147.142:5244'
