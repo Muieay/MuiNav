@@ -116,7 +116,10 @@ nav:
       - img: 'https://nav.iowen.cn/wp-content/uploads/2020/01/favicon.ico'
         title: '一为导航'
         url: 'https://nav.iowen.cn'
-
+      - img: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.W5lBkLYYJNbZdb26nxpoAAAAAA?pid=ImgDet&rs=1'
+        title: 'Web-Ai'
+        url: 'https://b2.betai55.uk'
+        
   - navTab: 'CSS工具集'
     tabList:
       - img: 'https://www.grabient.com/favicon-32x32.png'
