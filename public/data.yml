@@ -31,9 +31,9 @@ nav:
         - img: 'https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4WQwB?ver=0650&q=90&h=40&w=100&b=%23FFFFFFFF&aim=true'
           title: 'Word代码块'
           url: 'https://codeinwork.netlify.app'
-        - img: 'https://mh77love-image.pages.dev/file/7c0f3d6aeb518e04dd3c8.png'
+        - img: 'https://static.muieay.link/file/c2dd4b49c32c03d6147f2.png'
           title: '图床'
-          url: 'https://image.muieay.link/'
+          url: 'https://static.muieay.link'
 
   - navTab: '推荐'
     tabList:
@@ -119,9 +119,9 @@ nav:
       - img: 'https://nav.iowen.cn/wp-content/uploads/2020/01/favicon.ico'
         title: '一为导航'
         url: 'https://nav.iowen.cn'
-      - img: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.W5lBkLYYJNbZdb26nxpoAAAAAA?pid=ImgDet&rs=1'
-        title: '586-481-535A'
-        url: 'https://b2.betai55.uk'
+      - img: 'https://user-images.githubusercontent.com/71559822/259283009-1c0ea333-08d1-4acf-9ae4-e7b9980c2727.png'
+        title: 'Ai工具集'
+        url: 'https://github.com/xx025/carrot'
         
   - navTab: 'CSS工具集'
     tabList:
