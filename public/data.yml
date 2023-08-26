@@ -31,9 +31,12 @@ nav:
         - img: 'https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4WQwB?ver=0650&q=90&h=40&w=100&b=%23FFFFFFFF&aim=true'
           title: 'Word代码块'
           url: 'https://codeinwork.netlify.app'
-        - img: 'https://static.vue-js.com/6280b990-ff19-11ea-85f6-6fac77c0c9b3.png'
+        - img: 'https://unpkg.com/hello-picture/src/static/favicon.png'
           title: '图床'
           url: 'https://static.muieay.link'
+        - img: 'https://i.muieay.link/favicon.svg'
+          title: '短网址'
+          url: 'https://i.muieay.link'
 
   - navTab: '推荐'
     tabList:
@@ -95,7 +98,19 @@ nav:
       - img: 'https://ts1.cn.mm.bing.net/th/id/R-C.43771372af971d3d4c228583dbfcd08e?rik=3os1FmlM0U0Pxw&pid=ImgRaw&r=0'
         title: '中科大USTC'
         url: 'https://mirrors.ustc.edu.cn/'
-
+        
+  - navTab: '图像处理'
+    tabList:
+      - img: 'https://tinypng.com/images/apple-touch-icon.png'
+        title: 'TinyPNG'
+        url: 'https://tinypng.com'
+      - img: 'https://svgconverter.com/favicon.png'
+        title: 'SVG转换器'
+        url: 'https://svgconverter.com/zh/'
+      - img: 'https://www.iloveimg.com/img/favicons-img/favicon-16x16.png'
+        title: 'iLoveIMG'
+        url: 'https://www.iloveimg.com/zh-cn'
+        
   - navTab: '实用工具'
     tabList:
       - img: 'https://tinypng.com/images/apple-touch-icon.png'
@@ -131,3 +146,4 @@ nav:
       - img: 'https://ts1.cn.mm.bing.net/th/id/R-C.9af2e874671f225d7ceea587c4a5f04e?rik=%2bmly19vMCZmAqQ&riu=http%3a%2f%2fpic.ntimg.cn%2ffile%2f20190801%2f29088658_142716664084_2.jpg&ehk=420PwBUPtUCFUUDmbTCcwmGJbC2%2brOvsRBm9k3%2f0Sgg%3d&risl=&pid=ImgRaw&r=0'
         title: '拟态UI'
         url: 'https://neumorphism.io'
+       
