@@ -31,6 +31,7 @@ export default {
     },
     created() {
         this.created()
+        console.log('关注：https://github.com/Muieay')
     },
     methods: {
         // 读取文件

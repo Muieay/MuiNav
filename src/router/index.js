@@ -34,7 +34,6 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
     if (to.path == '/edit') {
         const token = sessionStorage.getItem('check')
-        console.log(token, check)
         if (token == check) {
             next()
         } else {
