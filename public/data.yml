@@ -40,10 +40,10 @@ nav:
 
   - navTab: '推荐'
     tabList:
-      - img: 'https://ts1.cn.mm.bing.net/th/id/R-C.43771372af971d3d4c228583dbfcd08e?rik=3os1FmlM0U0Pxw&pid=ImgRaw&r=0'
+      - img: 'https://i.muieay.link/favicon.svg'
         title: 'Netlify'
         url: 'https://app.netlify.com'
-      - img: 'https://ts1.cn.mm.bing.net/th/id/R-C.43771372af971d3d4c228583dbfcd08e?rik=3os1FmlM0U0Pxw&pid=ImgRaw&r=0'
+      - img: 'https://i.muieay.link/favicon.svg'
         title: 'Vercel'
         url: 'https://vercel.com/'
 
