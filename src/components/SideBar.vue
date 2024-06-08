@@ -23,8 +23,8 @@ export default {
             required: true,
         },
     },
-    methods:{
-        onClickHeader(){
+    methods: {
+        onClickHeader() {
             location.replace("/")
         }
     }
@@ -33,10 +33,11 @@ export default {
 </script>
 
 <style scoped>
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .sidebar {
     height: 100%;
     width: 150px;
@@ -60,13 +61,14 @@ export default {
     margin-left: 20px;
     margin-bottom: 15px;
 }
-.header>p{
+
+.header > p {
     font-size: 20px;
     font-weight: bolder;
     /*box-shadow: 0 4px 8px 0 rgb(128, 189, 151), 0 1px 20px 0 rgb(201, 96, 208);*/
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -75,23 +77,25 @@ ul{
     list-style: none;
 }
 
-.li{
+.li {
     margin: 5px;
     line-height: 25px;
     border-radius: 5px;
     text-align: center;
 }
-.li:hover{
+
+.li:hover {
     background-color: #64fae6;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgb(128, 189, 151), 0 1px 20px 0 rgb(201, 96, 208);
     transform: translateY(-2px);
 }
+
 .li:active {
     transform: translateY(-1px);
 }
 
-.li a{
+.li a {
     color: #333;
     text-decoration: none;
 }

@@ -8,8 +8,7 @@
 export default {
     name: 'App',
     data() {
-        return {
-        };
+        return {};
     },
 }
 </script>
@@ -34,11 +33,13 @@ body {
 .box {
     display: flex;
 }
+
 @media screen and (max-width: 980px) {
     .lef {
         display: none;
     }
 }
+
 .lef {
     height: 100vh;
     flex: 1;

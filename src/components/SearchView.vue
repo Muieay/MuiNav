@@ -66,11 +66,13 @@ export default {
     transition: border-radius 0.5s ease;
     background: var(--input-bg, #fff);
 }
+
 @media screen and (max-width: 480px) {
-    .form  {
+    .form {
         --width-of-input: 200px;
     }
 }
+
 /* styling of Input */
 .input {
     font-size: 0.9rem;

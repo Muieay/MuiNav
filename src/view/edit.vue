@@ -7,9 +7,11 @@
 
 <script>
 import YamlEditor from "@/components/YamlEditor";
+import {caesarDecrypt} from '@/utils/GithubUtil'
 const env = process.env;
 const myHeaders = new Headers();
-myHeaders.append("Authorization", `token ${env.VUE_APP_TOKEN}`);
+const tt = caesarDecrypt(`${env.VUE_APP_TOKEN}`,`${env.VUE_APP_KEY}`)
+myHeaders.append("Authorization", `token ${tt}`);
 export default {
     name: 'Edit',
     components: {
@@ -31,7 +33,7 @@ export default {
             this.getGithubValue()
         },
         getGithubValue() {
-            var requestOptions = {
+            let requestOptions = {
                 method: 'GET',
                 headers: myHeaders,
                 redirect: 'follow'
@@ -49,23 +51,23 @@ export default {
                      console.log(text1);
                      this.ymlData = text1
                  })
-                 .catch(error => console.log('error', error));
+                 .catch(error => alert(error));
         },
         setGithubValue() {
             // 内容转base64
             const text2 = this.bytesToBase64(new TextEncoder().encode(this.ymlData));
-            var raw = JSON.stringify({
+            let raw = JSON.stringify({
                 "message": "更新",
                 "content": text2,
                 "sha": this.sha
             });
-            var requestOptions = {
+            let requestOptions = {
                 method: 'PUT',
                 headers: myHeaders,
                 body: raw,
                 redirect: 'follow'
             };
-            fetch(`https://api.github.com/repos/${env.VUE_APP_USER}/${env.VUE_APP_REPO}/contents/data.yml`, requestOptions)
+            fetch(`https://api.github.com/repos/${env.VUE_APP_USER}/${env.VUE_APP_REPO}/contents/public/data.yml`, requestOptions)
                  .then(response => response.text())
                  .then(result => {
                      // SHA 标识每次更新都得重新获取
@@ -73,7 +75,7 @@ export default {
                      this.sha = parseResult.content.sha;
                      alert('更新成功！')
                  })
-                 .catch(error => console.log('error', error));
+                 .catch(error => alert(error));
         },
         // 解码
         base64ToBytes(base64) {

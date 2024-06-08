@@ -3,13 +3,13 @@
         <div v-for="item in navList">
             <h4 class="text-gray" style="display: inline-block;">
                 <i class="icon-io-tag" style="margin-right: 27px;" :id="item.navTab"></i>
-                {{item.navTab}}
+                {{ item.navTab }}
             </h4>
             <div class="row">
-                <div class="card" v-for="item2 in item.tabList" @click="goTo(item2.url)" >
+                <div class="card" v-for="item2 in item.tabList" @click="goTo(item2.url)">
                     <img class="img" :src="item2.img">
                     <div class="textBox">
-                        <h3>{{item2.title}}</h3>
+                        <h3>{{ item2.title }}</h3>
                     </div>
                 </div>
             </div>
@@ -20,11 +20,11 @@
 <script>
 export default {
     name: "HomeView",
-    props:["navList"],
+    props: ["navList"],
     created() {
     },
     methods: {
-        goTo(url){
+        goTo(url) {
             window.open(url)
         }
     }
@@ -38,10 +38,12 @@ export default {
     color: #555;
     margin-top: 20px;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
+
 .card {
     width: 100%;
     max-width: 210px;
@@ -54,6 +56,7 @@ export default {
     display: flex;
     align-items: center;
 }
+
 @media screen and (max-width: 480px) {
     .card {
         max-width: 370px;
