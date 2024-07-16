@@ -146,4 +146,15 @@ nav:
       - img: 'https://ts1.cn.mm.bing.net/th/id/R-C.9af2e874671f225d7ceea587c4a5f04e?rik=%2bmly19vMCZmAqQ&riu=http%3a%2f%2fpic.ntimg.cn%2ffile%2f20190801%2f29088658_142716664084_2.jpg&ehk=420PwBUPtUCFUUDmbTCcwmGJbC2%2brOvsRBm9k3%2f0Sgg%3d&risl=&pid=ImgRaw&r=0'
         title: '拟态UI'
         url: 'https://neumorphism.io'
-       
+
+  - navTab: 'AI模型及工具'
+    tabList:
+      - img: 'https://maxkb.cn/images/MaxKB-logo.svg'
+        title: '大语言模型的知识库'
+        url: 'https://maxkb.cn/'
+      - img: 'https://ts4.cn.mm.bing.net/th?id=ODLS.a411e0c1-4722-4d6f-bde3-b0c9a367c59f&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2'
+        title: 'Ollama'
+        url: 'https://ollama.com/'
+      - img: 'https://lobehub.com/_next/static/media/logo.98482105.png'
+        title: 'LobeChat'
+        url: 'https://lobehub.com/zh'  
