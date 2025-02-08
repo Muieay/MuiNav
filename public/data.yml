@@ -121,8 +121,8 @@ nav:
         title: 'DDGo'
         url: 'https://google.897653.xyz/aaabbbccc/https/duckduckgo.com'
       - img: '/logo/google.png'
-        title: '镜像'
-        url: 'https://google.150123.xyz'
+        title: 'Free Air'
+        url: 'https://s3.us-east-1.amazonaws.com/zhifan/wiki.html'
   - navTab: '图像处理'
     tabList:
       - img: 'https://tinypng.com/images/apple-touch-icon.png'
