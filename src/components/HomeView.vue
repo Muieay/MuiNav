@@ -74,7 +74,7 @@ export default {
     height: 50px;
     margin-left: 10px;
     border-radius: 10px;
-    background: linear-gradient(#d7cfcf, #9198e5);
+    background: linear-gradient(#ebf3cc, #b2b7ee);
 }
 
 .card:hover > .img {

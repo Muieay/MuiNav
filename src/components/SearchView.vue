@@ -6,7 +6,7 @@
             </form>
             -->
         <div class="box">
-            <form class="form" target="_blank" method="get" action="https://bing.com/search">
+            <form class="form" target="_blank" method="get" action="https://google.897653.xyz/aaabbbccc/https/duckduckgo.com">
                 <button>
                     <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
                          aria-labelledby="search">
