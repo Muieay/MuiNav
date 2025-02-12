@@ -161,6 +161,9 @@ nav:
       - img: 'https://user-images.githubusercontent.com/71559822/259283009-1c0ea333-08d1-4acf-9ae4-e7b9980c2727.png'
         title: 'Ai工具集'
         url: 'https://github.com/xx025/carrot'
+      - img: 'https://tool.cccyun.cc/static/images/logo.png'
+        title: '彩虹工具网'
+        url: 'https://tool.cccyun.cc/'
         
   - navTab: 'CSS工具集'
     tabList:
