@@ -1,12 +1,12 @@
 <template>
     <div>
-        <div v-for="item in navList">
+        <div v-for="(item, index1) in navList" :key="index1" >
             <h4 class="text-gray" style="display: inline-block;">
                 <i class="icon-io-tag" style="margin-right: 27px;" :id="item.navTab"></i>
                 {{ item.navTab }}
             </h4>
             <div class="row">
-                <div class="card" v-for="item2 in item.tabList" @click="goTo(item2.url)">
+                <div class="card" v-for="(item2, index2) in item.tabList" :key="index2" @click="goTo(item2.url)">
                     <img class="img" :src="item2.img">
                     <div class="textBox">
                         <h3>{{ item2.title }}</h3>

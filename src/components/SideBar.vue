@@ -39,13 +39,20 @@ export default {
 }
 
 .sidebar {
-    height: 100%;
+    height: 100vh; /* 全屏高 */
     width: 150px;
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 15px;
-    overflow: hidden;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox 隐藏滚动条 */
+    -ms-overflow-style: none; /* IE/Edge 隐藏滚动条 */
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none; /* Chrome/Safari 隐藏滚动条 */
 }
 
 @media screen and (max-width: 980px) {
@@ -58,36 +65,34 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-    margin-bottom: 15px;
+    padding: 15px 0;
 }
 
 .header > p {
     font-size: 20px;
     font-weight: bolder;
-    /*box-shadow: 0 4px 8px 0 rgb(128, 189, 151), 0 1px 20px 0 rgb(201, 96, 208);*/
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+    flex: 1;
+    padding: 0 10px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     list-style: none;
 }
 
 .li {
-    margin: 5px;
+    margin: 5px 0;
     line-height: 25px;
     border-radius: 5px;
     text-align: center;
+    transition: all 0.2s ease;
 }
 
 .li:hover {
-    background-color: #64fae6;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px 0 rgb(128, 189, 151), 0 1px 20px 0 rgb(201, 96, 208);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(128, 189, 151, 0.4),
+                0 1px 20px rgba(201, 96, 208, 0.3);
     transform: translateY(-2px);
 }
 
@@ -98,6 +103,8 @@ ul {
 .li a {
     color: #333;
     text-decoration: none;
+    display: block;
+    padding: 5px 10px;
 }
 
 </style>
