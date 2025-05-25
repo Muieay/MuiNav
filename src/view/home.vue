@@ -43,7 +43,9 @@ export default {
         loadData() {
             const ymlData = this.readFile('./data.yml')
             const data = yaml.load(ymlData)
-            this.navList = data.nav
+            const ymlData2 = this.readFile('./edge.yml')
+            const data2 = yaml.load(ymlData2)
+            this.navList = [...data.nav,...data2.nav]
             this.filteredNavList = this.navList
         },
         handleSearch(keyword) {
