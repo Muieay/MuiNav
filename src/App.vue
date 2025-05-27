@@ -43,10 +43,10 @@ body {
 .lef {
     height: 100vh;
     flex: 1;
+    margin-right: 10px;
 }
 
 .rig {
-    margin-left: 10px;
     flex: 8;
 }
 
