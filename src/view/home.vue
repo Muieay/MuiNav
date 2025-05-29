@@ -40,13 +40,21 @@ export default {
             xhr.send(null)
             return xhr.status === okStatus ? xhr.responseText : null
         },
-        loadData() {
-            const ymlData = this.readFile('./data.yml')
-            const data = yaml.load(ymlData)
-            const ymlData2 = this.readFile('./edge.yml')
-            const data2 = yaml.load(ymlData2)
-            this.navList = [...data.nav,...data2.nav]
-            this.filteredNavList = this.navList
+        async loadData() {
+            try {
+                const [ymlData, ymlData2, ymlData3] = await Promise.all([
+                    fetch('/data.yml').then(res => res.text()),
+                    fetch('/edge.yml').then(res => res.text()),
+                    fetch('/google.yml').then(res => res.text())
+                ]);
+                const data = yaml.load(ymlData);
+                const data2 = yaml.load(ymlData2);
+                const data3 = yaml.load(ymlData3);
+                this.navList = [...data.nav, ...data2.nav, ...data3.nav];
+                this.filteredNavList = this.navList;
+            } catch (error) {
+                console.error('加载 YAML 文件失败:', error);
+            }
         },
         handleSearch(keyword) {
             if (!keyword) {
