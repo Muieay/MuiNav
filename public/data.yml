@@ -171,6 +171,9 @@ nav:
       - img: 'https://tool.cccyun.cc/static/images/logo.png'
         title: '安娜的档案'
         url: 'https://zh.annas-archive.li/'
+      - img: 'https://www.gequbao.com/static/img/logo.png'
+        title: '歌曲宝'
+        url: 'https://www.gequbao.com/'
         
   - navTab: 'CSS工具集'
     tabList:
