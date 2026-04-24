@@ -50,7 +50,15 @@ nav:
         - img: 'https://github.githubassets.com/favicons/favicon.png'
           title: 'Github导航'
           url: 'https://muieay1.netlify.app/edge/hello/githubfavorites'
+        - img: 'https://github.githubassets.com/favicons/favicon.png'
+          title: 'TiCaiJSON'
+          url: 'https://ticai6.netlify.app'
+        - img: 'https://github.githubassets.com/favicons/favicon.png'
+          title: 'SAFE'
+          url: 'https://safe-hello.netlify.app'
 
+
+          
 
   - navTab: '支持'
     tabList:
